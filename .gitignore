@@ -1,0 +1,9 @@
+node_modules
+.next
+.env
+*.log
+*.err
+Caddyfile
+.DS_Store
+dist
+build

@@ -1,0 +1,11 @@
+{
+  "name": "mainsuper50-root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Root proxy package.json to forward npm commands to the inner project folder.",
+  "scripts": {
+    "install-inner": "npm --prefix ./mainsuper50 install",
+    "dev": "npm --prefix ./mainsuper50 run dev",
+    "start": "npm --prefix ./mainsuper50 start"
+  }
+}

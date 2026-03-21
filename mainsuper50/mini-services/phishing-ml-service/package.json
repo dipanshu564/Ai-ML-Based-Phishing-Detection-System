@@ -1,0 +1,14 @@
+{
+  "name": "phishing-ml-service",
+  "version": "1.0.0",
+  "description": "Python ML service for phishing detection",
+  "main": "index.py",
+  "scripts": {
+    "dev": "tsx watch index.py",
+    "start": "python index.py"
+  },
+  "dependencies": {
+    "tsx": "^4.20.3"
+  },
+  "devDependencies": {}
+}

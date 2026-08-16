@@ -2,17 +2,17 @@
   "name": "nextjs_tailwind_shadcn_ts",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev -p 3000",
-    "ws:dev": "tsx ./examples/websocket/server.ts",
-    "build": "next build && cp -r .next/static .next/standalone/.next/",
-    "start": "NODE_ENV=production node .next/standalone/server.js",
-    "lint": "next lint",
-    "db:push": "prisma db push",
-    "db:generate": "prisma generate",
-    "db:migrate": "prisma migrate dev",
-    "db:reset": "prisma migrate reset"
-  },
+"scripts": {
+  "dev": "next dev -p 3000",
+  "ws:dev": "tsx ./examples/websocket/server.ts",
+  "build": "next build && cp -r .next/static .next/standalone/.next/",
+  "start": "NODE_ENV=production node .next/standalone/server.js",
+  "lint": "next lint",
+  "db:push": "prisma db push",
+  "db:generate": "prisma generate",
+  "db:migrate": "prisma migrate dev",
+  "db:reset": "prisma migrate reset"
+},
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
     "@dnd-kit/sortable": "^10.0.0",

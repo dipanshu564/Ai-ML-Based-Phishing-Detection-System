@@ -6,7 +6,7 @@
     "dev": "next dev -p 3000",
     "ws:dev": "tsx ./examples/websocket/server.ts",
     "build": "next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
-    "start": "cross-env NODE_ENV=production node .next/standalone/server.js",
+    "start": "NODE_ENV=production node .next/standalone/server.js",
     "lint": "next lint",
     "db:push": "prisma db push",
     "db:generate": "prisma generate",
